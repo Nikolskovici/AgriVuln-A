@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data" / "processed"
 BASE_RESULTS_DIR = BASE_DIR / "results"  # pentru SHAP plots
 
-CSV_V2 = DATA_DIR / "ground_truth_with_predictions_v2.csv"
+CSV_V2 = DATA_DIR / "ground_truth_with_predictions_v2_pm25annual.csv"
 CSV_V1 = DATA_DIR / "ground_truth_with_predictions.csv"
 
 
